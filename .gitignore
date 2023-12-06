@@ -1,0 +1,14 @@
+# Arquivos temporários
+temp.txt
+
+# Diretório de dependências ou build
+/build/
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração sensíveis
+config.ini
+
+# Arquivos CSV
+*.csv
