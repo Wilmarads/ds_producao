@@ -91,7 +91,7 @@ Através do Mindmap, foram geradas 17 hipóteses de negócio. Dessas, 12 foram s
 
 Dos 12 hipóteses verificadas, destacaram-se três principais insights.
 ### 4.1 Os 3 maiores Insights
-## Insight 1: Lojas com mais sortimento deveriam vender menos.
+## Insight 1: Lojas com mais sortimento deveriam vender mais.
 
 **Hipótese Falsa:** Lojas com mais sortimento vendem menos
 
