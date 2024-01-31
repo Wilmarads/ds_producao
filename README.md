@@ -134,7 +134,7 @@ Após os testes inicias, obtivemos os seguintes resultados:
 ![](img/metricas.png) 
 
 ### 6.3. Métricas dos Algoritmos - Time Series Cross-Validation
-Após testar os algoritmos selecionados, utilizamos a técnica de ***Cross Validation*** para validar os resultados e garantir a real performance de cada modelo utilizado. No nosso caso, como estávamos lidando com uma série temporal, aplicamos uma forma específica de ***Cross Validation*** que leva em consideração a ordem cronológica dos dados durante o treinamento dos algoritmos.Significa que respeitamos a sequência temporal em que os dados foram coletados ou registrados. Isso é importante quando estamos trabalhando com séries temporais, onde a ordem dos eventos é relevante. Essa abordagem nos permite obter uma avaliação mais precisa do desempenho dos modelos ao longo do tempo.
+Após testar os algoritmos selecionados, utilizamos a técnica de ***Cross Validation*** para validar os resultados e garantir a real performance de cada modelo utilizado. No nosso caso, como estávamos lidando com uma série temporal, aplicamos uma forma específica de ***Cross Validation*** que leva em consideração a ordem cronológica dos dados durante o treinamento dos algoritmos. Significa que respeitamos a sequência temporal em que os dados foram coletados ou registrados. Isso é importante quando estamos trabalhando com séries temporais, onde a ordem dos eventos é relevante. Essa abordagem nos permite obter uma avaliação mais precisa do desempenho dos modelos ao longo do tempo.
 
 ![](img/cross_validation.png)
 
@@ -143,10 +143,10 @@ Com esse método de validação, foram obtidas as seguintes performances:
 ![](img/metricas_cross_validation.png) 
 
 ### 6.5. Escolha do Modelo
-Embora o algoritmo ***Random Fores Regressor*** tenha sido o algoritmo que melhor performou, foi optado pelo algoritmo ***XGBosst Regressor*** nesta etapa. 
-- Primeiro, porque o erro entre esses dois algoritmos é pequeno.
-- segundo porque o tempo de treinamento do ***XGBoost Regressor*** é mais rápido se comparado ao algoritmo ***Random Fores Regressor***. 
-- Terceiro porque o modelo final treinado pelo algoritmo ***XGBoost Regressor*** ocupa menos espaço que o algoritmo ***Random Fores Regressor***, deixando assim o uso de servidores em nuvem mais baratos.
+Embora o algoritmo ***Random Fores Regressor*** tenha sido o algoritmo que melhor performou, o escolhifo foi o algoritmo ***XGBosst Regressor*** nesta etapa. 
+
+- Primeiro porque o tempo de treinamento do ***XGBoost Regressor*** é mais rápido se comparado ao algoritmo ***Random Fores Regressor***. 
+- Segundo porque o modelo final treinado pelo algoritmo ***XGBoost Regressor*** ocupa menos espaço que o algoritmo ***Random Fores Regressor***, deixando assim o uso de servidores em nuvem mais baratos.
 
 ### 6.5. Ajuste de Hiperparâmetros
 Foi utilizada a técnica de Random Search para fazer a busca dos melhores hiperparâmetros. Segue os parâmetros que melhor performaram e model final tuned (XGBoost).
