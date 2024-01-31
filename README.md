@@ -164,7 +164,9 @@ Já nos dois últimos gráficos, podemos observar uma distribuição normal a ce
 ## 7. Resultado de Negócio
 Com o modelo selecionado e treinado, obtivemos a seguinte performance de negócio para as 5 melhores lojas:
 
-![](img/5_melhores.png)
+(image em confecção)
+
+<!-- ![](img/5_melhores.png)  -->
 
 Como resultado final, temos os seguintes cenários:
 
@@ -181,7 +183,7 @@ Como resultado final, temos os seguintes cenários:
 ### 7.1. Distribuição das Previsões por Loja
 Como podemos ver na distribuição de performance abaixo existem alguns outliers indicados pelo alto MAE, prejudicando assim a previsão de algumas lojas. Portanto, em uma próxima iteração do ciclo crisp-dm podem ser analisadas individualmente a fim de analisar quais os problemas que estas lojas apresentam.
 
-<!-- ![](img/business_performance.png) (image em confecção) -->
+![](img/business_performance.png) 
 
 
 ## 8 Aplicação
