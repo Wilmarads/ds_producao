@@ -168,41 +168,48 @@ Com o modelo selecionado e treinado, obtivemos a seguinte performance de negóci
 
 Como resultado final, temos os seguintes cenários:
 
-![](img/performance_total.png)
+<!-- ![](img/performance_total.png) -->
 
-<!-- | Cenários       |           Valores |
+| Cenários       |           Valores |
 | :------------- | ----------------: |
-| Previsão Feita | \$ 285,901,376.00 |
-| Pior Cenário   | \$ 285,158,456.49 |
-| Melhor Cenário | \$ 286,644,307.44 |usar deste modelo caso a imagem fique ruim -->
+| Previsão Feita | \$ 276,575,296.00 |
+| Pior Cenário   | \$ 275,699,104.58 |
+| Melhor Cenário | \$ 277,451,489.12 |
 
 
 
 ### 7.1. Distribuição das Previsões por Loja
 Como podemos ver na distribuição de performance abaixo existem alguns outliers indicados pelo alto MAE, prejudicando assim a previsão de algumas lojas. Portanto, em uma próxima iteração do ciclo crisp-dm podem ser analisadas individualmente a fim de analisar quais os problemas que estas lojas apresentam.
-![](img/business_performance.png)
 
+<!-- ![](img/business_performance.png) (image em confecção) -->
 
 
 ## 8 Aplicação
-Este gif demonstra uma simulação do CFO solicitando previsões de algumas lojas com base no modelo final apresentado como solução.
-gravar vídeo solicitando previsão de loja no telegram e depois criar gif
+Este gif demonstra uma simulação do CFO solicitando previsões de algumas lojas com base no modelo final apresentado como solução. (Em confecção)
+<!-- gravar vídeo solicitando previsão de loja no telegram e depois criar gif -->
+
 ## 9. Conclusões
 De acordo com o exposto até aqui, o projeto conseguiu atender a demanda do CFO, permitindo previsões padronizadas, automatizadas e acessíveis a qualquer momento.
 
 Com o BOT criado para solicitar previsões há uma maior rapidez quanto às tomadas de decisões oriundas destas previsões de vendas.
 
 ## 10. Lições Aprendidas
-Priorizar tarefas e soluções
-Desenvolver soluções de forma cíclica, entregando assim resultado mais rapidamente
-Construção de um BOT para o aplicativo de mensagens Telegram, afim de agilizar o acesso à informações.
+* Priorizar tarefas e soluções;
 
+* Desenvolver soluções de forma cíclica, entregando assim resultado mais rapidamente;
+
+* Construção de um BOT para o aplicativo de mensagens Telegram, afim de agilizar o acesso à informações.
 
 ## 11. Próximos Passos
-Realizar uma investigação detalhada para identificar as causas das previsões inadequadas em algumas lojas.
-Explorar a inclusão de diferentes algoritmos durante a próxima fase de treinamento, com o objetivo de aprimorar a precisão das previsões.
-Desenvolver uma aplicação web usando o framework Streamlit, permitindo que os gerentes das lojas acessem e visualizem as previsões de forma fácil e intuitiva.
-Implementar testes unitários abrangentes para validar a funcionalidade das classes e funções desenvolvidas.
-Identificar e criar novas variáveis (features) que possam contribuir para melhorar o desempenho do modelo atual e futuros modelos de previsão.
-Aplicar técnicas avançadas de programação para otimizar a eficiência e o desempenho da solução.
+* Realizar uma investigação detalhada para identificar as causas das previsões inadequadas em algumas lojas.
+
+* Explorar a inclusão de diferentes algoritmos durante a próxima fase de treinamento, com o objetivo de aprimorar a precisão das previsões.
+
+* Desenvolver uma aplicação web usando o framework Streamlit, permitindo que os gerentes das lojas acessem e visualizem as previsões de forma fácil e intuitiva.
+
+* Implementar testes unitários abrangentes para validar a funcionalidade das classes e funções desenvolvidas.
+
+* Identificar e criar novas variáveis (features) que possam contribuir para melhorar o desempenho do modelo atual e futuros modelos de previsão.
+
+* Aplicar técnicas avançadas de programação para otimizar a eficiência e o desempenho da solução.
 
