@@ -150,24 +150,31 @@ Embora o algoritmo ***Random Fores Regressor*** tenha sido o algoritmo que melho
 
 ### 6.5. Ajuste de Hiperparâmetros
 Foi utilizada a técnica de Random Search para fazer a busca dos melhores hiperparâmetros. Segue os parâmetros que melhor performaram e model final tuned (XGBoost).
+
 ![](img/param_tuned.png)
 
 ![](img/metrica_final.png)
+
 ### 6.6 Performance do modelo
 Como podemos observar nos dois primeiros gráficos abaixo, o modelo selecionado obteve uma performance aceitável, visto que conseguiu entender e reproduzir o padrão de vendas ao longo dos anos estudados.
 Já nos dois últimos gráficos, podemos observar uma distribuição normal a cerca das previsões, o que nos indica um bom resultado do modelo selecionado, além de podermos verificar a distribuição dos erros do modelo.
+
 ![](img/performance.png)
+
 ## 7. Resultado de Negócio
 Com o modelo selecionado e treinado, obtivemos a seguinte performance de negócio para as 5 melhores lojas:
+
 ![](img/5_melhores.png)
+
 Como resultado final, temos os seguintes cenários:
+
 ![](img/performance_total.png)
 
-| Cenários       |           Valores |
+<!-- | Cenários       |           Valores |
 | :------------- | ----------------: |
 | Previsão Feita | \$ 285,901,376.00 |
 | Pior Cenário   | \$ 285,158,456.49 |
-| Melhor Cenário | \$ 286,644,307.44 |usar deste modelo caso a imagem fique ruim
+| Melhor Cenário | \$ 286,644,307.44 |usar deste modelo caso a imagem fique ruim -->
 
 
 
