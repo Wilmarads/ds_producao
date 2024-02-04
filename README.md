@@ -189,7 +189,13 @@ Como podemos ver na distribuição de performance abaixo existem alguns outliers
 ## 8 Aplicação
 Este gif demonstra uma simulação do CFO solicitando previsões de algumas lojas com base no modelo final apresentado como solução. 
 
-[![]()](img/application.mp4)
+<!-- [![]()](img/application.mp4) -->
+
+<video width="320" height="240" controls>
+  <source src="img/application.mp4" type="video/mp4">
+  Seu navegador não suporta o elemento de vídeo.
+</video>
+
 
 ## 9. Conclusões
 De acordo com o exposto até aqui, o projeto conseguiu atender a demanda do CFO, permitindo previsões padronizadas, automatizadas e acessíveis a qualquer momento.
