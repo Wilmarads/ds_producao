@@ -164,9 +164,7 @@ Já nos dois últimos gráficos, podemos observar uma distribuição normal a ce
 ## 7. Resultado de Negócio
 Com o modelo selecionado e treinado, obtivemos a seguinte performance de negócio para as 5 melhores lojas:
 
-(image em confecção)
-
-<!-- ![](img/5_melhores.png)  -->
+![](img/5_melhores.png) 
 
 Como resultado final, temos os seguintes cenários:
 
