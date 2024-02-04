@@ -189,10 +189,10 @@ Como podemos ver na distribuição de performance abaixo existem alguns outliers
 ## 8 Aplicação
 Este gif demonstra uma simulação do CFO solicitando previsões de algumas lojas com base no modelo final apresentado como solução. 
 
-<!-- [![]()](img/application.mp4) -->
+[![]()](img/application.gif)
 
 <video width="320" height="240" controls>
-  <source src="img/application.mp4" type="application.mp4/mp4">
+  <source src="img/application.mp4" type="video/mp4">
   Seu navegador não suporta o elemento de vídeo.
 </video>
 
