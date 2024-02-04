@@ -192,7 +192,7 @@ Este gif demonstra uma simulação do CFO solicitando previsões de algumas loja
 <!-- [![]()](img/application.mp4) -->
 
 <video width="320" height="240" controls>
-  <source src="img/application.mp4" type="video/mp4">
+  <source src="img/application.mp4" type="application.mp4/mp4">
   Seu navegador não suporta o elemento de vídeo.
 </video>
 
