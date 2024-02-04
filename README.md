@@ -189,7 +189,7 @@ Como podemos ver na distribuição de performance abaixo existem alguns outliers
 ## 8 Aplicação
 Este gif demonstra uma simulação do CFO solicitando previsões de algumas lojas com base no modelo final apresentado como solução. 
 
-[API_Telegram]"https://l1nk.dev/6BCkB"
+[API_Telegram](https://l1nk.dev/6BCkB)
 
 
 ## 9. Conclusões
