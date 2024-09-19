@@ -143,10 +143,10 @@ Com esse método de validação, foram obtidas as seguintes performances:
 ![](img/metricas_cross_validation.png) 
 
 ### 6.5. Escolha do Modelo
-Embora o algoritmo ***Random Fores Regressor*** tenha sido o algoritmo que melhor performou, o escolhifo foi o algoritmo ***XGBosst Regressor*** nesta etapa. 
+Embora o algoritmo ***Random Forest Regressor*** tenha sido o algoritmo que melhor performou, o escolhifo foi o algoritmo ***XGBosst Regressor*** nesta etapa. 
 
-- Primeiro porque o tempo de treinamento do ***XGBoost Regressor*** é mais rápido se comparado ao algoritmo ***Random Fores Regressor***. 
-- Segundo porque o modelo final treinado pelo algoritmo ***XGBoost Regressor*** ocupa menos espaço que o algoritmo ***Random Fores Regressor***, deixando assim o uso de servidores em nuvem mais baratos.
+- Primeiro porque o tempo de treinamento do ***XGBoost Regressor*** é mais rápido se comparado ao algoritmo ***Random Forest Regressor***. 
+- Segundo porque o modelo final treinado pelo algoritmo ***XGBoost Regressor*** ocupa menos espaço que o algoritmo ***Random Forest Regressor***, deixando assim o uso de servidores em nuvem mais baratos.
 
 ### 6.5. Ajuste de Hiperparâmetros
 Foi utilizada a técnica de Random Search para fazer a busca dos melhores hiperparâmetros. Segue os parâmetros que melhor performaram e model final tuned (XGBoost).
@@ -179,7 +179,7 @@ Como resultado final, temos os seguintes cenários:
 
 
 ### 7.1. Distribuição das Previsões por Loja
-Como podemos ver na distribuição de performance abaixo existem alguns outliers indicados pelo alto MAE, prejudicando assim a previsão de algumas lojas. Portanto, em uma próxima iteração do ciclo crisp-dm podem ser analisadas individualmente a fim de analisar quais os problemas que estas lojas apresentam.
+Como podemos ver na distribuição de performance abaixo existem alguns outliers indicados pelo alto MAPE, prejudicando assim a previsão de algumas lojas. Portanto, em uma próxima iteração do ciclo crisp-dm podem ser analisadas individualmente a fim de analisar quais os problemas que estas lojas apresentam.
 
 ![](img/business_performance.png) 
 
@@ -187,7 +187,7 @@ Como podemos ver na distribuição de performance abaixo existem alguns outliers
 ## 8 Aplicação
 Este gif demonstra uma simulação do CFO solicitando previsões de algumas lojas com base no modelo final apresentado como solução. 
 
-[API_Telegram](https://l1nk.dev/6BCkB)
+[API_Telegram]([https://l1nk.dev/6BCkB](https://drive.google.com/file/d/1L7q8OFI9PjgWmXWYjDImBpuuE534ApoJ/view?usp=drive_link))
 
 
 ## 9. Conclusões
